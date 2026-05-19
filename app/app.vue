@@ -2,7 +2,7 @@
   <div>
     <LayoutHeader />
 
-        <main class="pt-28">
+        <main class="">
       <NuxtPage />
     </main>
 

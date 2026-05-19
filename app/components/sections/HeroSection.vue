@@ -79,7 +79,7 @@
         >
 
           <div class="hero-feature-item">
-            <div class="hero-feature-dot"></div>
+            <div class="hero-feature-dot"></div>  
             <span>Doğrulanmış fabrikalar</span>
           </div>
 

@@ -7,14 +7,18 @@
   box-shadow:
     0 8px 30px rgba(0, 0, 0, 0.06);
 
-  transition: all 0.5s ease;
+  transition:
+  background 0.5s ease,
+  backdrop-filter 0.5s ease,
+  box-shadow 0.5s ease,
+  transform 0.5s ease;
 }
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   transition: all 0.5s ease;
+  
 }
 .mobile-menu-button {
   width: 56px;
@@ -32,4 +36,19 @@
   transition: all 0.3s ease;
 }
 
- 
+.header-transparent {
+  background: rgba(255, 255, 255, 0);
+
+  backdrop-filter: blur(0px);
+
+  box-shadow:
+    0 0 0 rgba(0,0,0,0);
+
+  border-radius: 32px;
+
+  transition:
+    background 0.5s ease,
+    backdrop-filter 0.5s ease,
+    box-shadow 0.5s ease,
+    transform 0.5s ease;
+}

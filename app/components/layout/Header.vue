@@ -2,7 +2,7 @@
 
   <header
     :class="[
-      'fixed left-1/2 -translate-x-1/2 z-[999] transition-all duration-500 ease-in-out',
+      'fixed left-1/2 -translate-x-1/2 z-[999] transition-all duration-1000 ease-in-out',
 
       isScrolled
         ? 'top-4 w-[96%] max-w-7xl'
@@ -15,7 +15,7 @@
       :class="[
         isScrolled
           ? 'header-glass'
-          : 'bg-white'
+          : 'header-transparent'
       ]"
     >
 
