@@ -1,4 +1,4 @@
-.header-button-gradient {
+.primary-button-gradient {
   position: absolute;
   inset: 0;
 
@@ -15,7 +15,7 @@
   transition: all 0.5s ease;
 }
 
-.header-button-shine {
+.primary-button-shine {
   position: absolute;
   top: 0;
   left: -80px;
@@ -32,11 +32,11 @@
   transition: all 0.7s ease;
 }
 
-.header-button:hover .header-button-gradient {
+.primary-button:hover .primary-button-gradient {
   opacity: 1;
 }
 
-.header-button:hover .header-button-shine {
+.primary-button:hover .primary-button-shine {
   left: 120%;
 }
 

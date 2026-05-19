@@ -1,4 +1,4 @@
-.header-button {
+.primary-button {
   position: relative;
   overflow: hidden;
 
@@ -14,20 +14,25 @@
   color: white;
   font-weight: 500;
 
-  transition: all 0.5s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.5s ease;
+
 
   cursor: pointer;
 }
-.header-button:hover {
+.primary-button:hover {
+  transform: scale(1.05);
+  
   box-shadow:
     0 0 35px rgba(139, 92, 246, 0.45);
 }
-.header-button-content {
+.primary-button-content {
   position: relative;
   z-index: 10;
 }
 
-.header-button-icon {
+.primary-button-icon {
   width: 20px;
   height: 20px;
 
@@ -37,6 +42,6 @@
   transition: transform 0.3s ease;
 }
 
-.header-button:hover .header-button-icon {
+.primary-button:hover .primary-button-icon {
   transform: translateX(4px);
 }

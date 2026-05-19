@@ -75,22 +75,22 @@
         <NuxtLink to="/basvuru">
 
           <button
-            class="header-button hidden lg:flex"
+            class="primary-button hidden lg:flex justify-items-center"
           >
 
             <!-- GRADIENT -->
             <span
-              class="header-button-gradient"
+              class="primary-button-gradient"
             ></span>
 
             <!-- SHINE -->
             <span
-              class="header-button-shine"
+              class="primary-button-shine"
             ></span>
 
             <!-- TEXT -->
             <span
-              class="header-button-content"
+              class="primary-button-content"
             >
               Hemen Başvur
             </span>
@@ -102,7 +102,7 @@
               viewBox="0 0 24 24"
               stroke-width="2"
               stroke="currentColor"
-              class="header-button-icon"
+              class="primary-button-icon mt-2"
             >
               <path
                 d="M8 6L8 2L10 2L16 8L10 14L8 14L8 10L0 10L0 6L8 6Z"
@@ -185,23 +185,23 @@
         <NuxtLink to="/basvuru">
 
           <button
-            class="header-button
+            class="primary-button
             w-full justify-center mt-4"
           >
 
             <!-- GRADIENT -->
             <span
-              class="header-button-gradient"
+              class="primary-button-gradient"
             ></span>
 
             <!-- SHINE -->
             <span
-              class="header-button-shine"
+              class="primary-button-shine"
             ></span>
 
             <!-- TEXT -->
             <span
-              class="header-button-content"
+              class="primary-button-content"
             >
               Hemen Başvur
             </span>
