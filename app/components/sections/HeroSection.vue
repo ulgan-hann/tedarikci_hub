@@ -4,8 +4,7 @@
 
     <!-- BACKGROUND GLOW -->
 
-    <div class="hero-glow"></div>
-
+ 
     <div class="page-container">
 
       <!-- HERO TOP -->
@@ -14,7 +13,7 @@
 
         <!-- BADGE -->
 
-        <div class="hero-badge">
+        <div class="hero-badge mt-5 lg:mt-0">
 
           <div class="hero-badge-dot"></div>
 
