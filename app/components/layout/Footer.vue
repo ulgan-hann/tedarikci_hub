@@ -16,7 +16,7 @@
           <div class="flex items-center gap-3">
 
             <img
-              src="/img/tedarikcihub_logo.png"
+              src="/img/tedarikcihub_logo.webp"
               alt="Tedarik Hub Logo"
               class="w-14 h-14 object-contain"
             />

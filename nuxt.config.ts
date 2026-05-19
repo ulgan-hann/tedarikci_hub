@@ -10,4 +10,11 @@ css: ["./assets/css/main.css"],
   vite: {
     plugins: [tailwindcss()],
   },
+    app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/png', href: '/img/tedarikcihub_logo.webp' }
+      ]
+    }
+  }
 });

@@ -37,9 +37,9 @@
         >
 
           <img
-            src="/img/tedarikcihub_logo.png"
+            src="/img/tedarikcihub_logo.webp"
             alt="TedarikciHub Logo"
-            class="w-12 h-12 object-contain"
+            class="w-12 h-12 object-contain" 
           />
 
           <div>
