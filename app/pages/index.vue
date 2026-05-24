@@ -1,3 +1,4 @@
 <template>
   <SectionsHeroSection />
+  <SectionsAudienceSection />
 </template>

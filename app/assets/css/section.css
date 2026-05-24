@@ -17,8 +17,7 @@
 ========================================= */
 
 .section-spacing {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 50px;
 }
 
 /* =========================================
@@ -198,7 +197,7 @@
 ========================================= */
 
 .hero-dashboard {
-  margin-top: 80px;
+  margin-top: 50px;
 
   border-radius: 40px;
 
@@ -211,7 +210,7 @@
   padding: 24px;
 
   box-shadow:
-    0 30px 80px rgba(139, 92, 246, 0.12);
+    0 10px 40px rgba(139, 92, 246, 0.12);
 }
 
 .hero-dashboard-inner {
@@ -308,6 +307,192 @@
 
   .hero-dashboard-content {
     padding: 20px;
+  }
+
+}
+
+/* =========================================
+   AUDIENCE SECTION
+========================================= */
+
+.audience-card {
+  position: relative;
+
+  overflow: hidden;
+
+  border-radius: 32px;
+
+  padding: 48px;
+
+  border: 1px solid #e5e7eb;
+
+  background: white;
+
+  box-shadow:
+    0 10px 30px rgba(0,0,0,0.04);
+
+  transition:
+    transform 0.5s ease,
+    box-shadow 0.5s ease,
+    border-color 0.5s ease;
+}
+
+/* HOVER */
+
+.audience-card:hover {
+  transform: translateY(-12px);
+
+  box-shadow:
+    0 35px 80px rgba(0,0,0,0.12);
+}
+/* =========================================
+   GRADIENT LAYER
+========================================= */
+
+.audience-card::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  opacity: 0;
+
+  transition:
+    opacity 0.6s ease;
+
+  z-index: 0;
+}
+
+/* SOL KART */
+
+.audience-card-light::before {
+  background:
+    linear-gradient(
+      135deg,
+      #ffffff 0%,
+      #f8fbff 45%,
+      #eef6ff 100%
+    );
+}
+
+/* SAĞ KART */
+
+.audience-card-dark {
+  background:
+    #020617;
+
+  border-color:
+    rgba(255,255,255,0.05);
+}
+
+.audience-card-dark::before {
+  background:
+    linear-gradient(
+      135deg,
+      #020617 0%,
+      #020617 35%,
+      #111827 70%,
+      #312e81 100%
+    );
+}
+
+/* HOVERDA GRADIENT ÇIKSIN */
+
+.audience-card:hover::before {
+  opacity: 1;
+}
+
+/* =========================================
+   CONTENT
+========================================= */
+
+.audience-card > * {
+  position: relative;
+  z-index: 2;
+}
+
+.audience-label {
+  font-size: 15px;
+
+  letter-spacing: 0.15em;
+
+  font-weight: 600;
+
+  color: #374151;
+}
+
+.audience-card-title {
+  margin-top: 20px;
+
+  font-size: 40px;
+
+  line-height: 1.08;
+
+  font-weight: 500;
+
+  color: #020617;
+}
+
+.audience-card-description {
+  margin-top: 24px;
+
+  font-size: 18px;
+
+  line-height: 1.9;
+
+  color: #4b5563;
+}
+
+.audience-list {
+  margin-top: 28px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+
+  font-size: 17px;
+
+  line-height: 1.7;
+}
+
+/* =========================================
+   DARK CARD TEXT
+========================================= */
+
+.audience-card-dark .audience-label {
+  color:
+    rgba(255,255,255,0.7);
+}
+
+.audience-card-dark .audience-card-title {
+  color: white;
+}
+
+.audience-card-dark .audience-card-description {
+  color:
+    rgba(255,255,255,0.78);
+}
+
+.audience-card-dark .audience-list {
+  color: white;
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 1024px) {
+
+  .audience-card {
+    padding: 32px;
+  }
+
+  .audience-card-title {
+    font-size: 38px;
+  }
+
+  .audience-card-description {
+    font-size: 16px;
   }
 
 }

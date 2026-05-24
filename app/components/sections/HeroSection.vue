@@ -1,6 +1,6 @@
 <template>
 
-  <section class="section-spacing relative overflow-hidden">
+  <section class="pt-30 xl:pt-50 pb-5 md:pb-10 lg:pb-20 xl:pb-30  relative overflow-hidden">
 
     <!-- BACKGROUND GLOW -->
 
