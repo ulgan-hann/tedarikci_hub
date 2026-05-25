@@ -17,7 +17,7 @@
 ========================================= */
 
 .section-spacing {
-  padding-bottom: 50px;
+  padding-bottom: 150px;
 }
 
 /* =========================================
@@ -121,7 +121,7 @@
 
   backdrop-filter: blur(10px);
 
-  font-size: 14px;
+  font-size: 20px;
 
   color: #6b7280;
 }
@@ -493,6 +493,120 @@
 
   .audience-card-description {
     font-size: 16px;
+  }
+
+}
+
+/* =========================================
+   BUYER FEATURES
+========================================= */
+
+.buyer-features-box {
+  border-radius: 40px;
+
+  border: 1px solid #e5e7eb;
+
+  background: white;
+
+  box-shadow:
+    0 10px 30px rgba(0,0,0,0.04);
+
+  padding: 24px;
+}
+
+.buyer-features-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 18px;
+}
+
+.buyer-feature-item {
+  padding: 28px;
+
+  border-radius: 28px;
+
+  transition:
+    transform 0.4s ease,
+    background 0.4s ease,
+    box-shadow 0.4s ease;
+}
+
+.buyer-feature-item:hover {
+  background: #fafafe;
+
+  transform: translateY(-4px);
+
+  box-shadow:
+    0 10px 25px rgba(0,0,0,0.05);
+}
+
+.buyer-feature-icon {
+  width: 56px;
+  height: 56px;
+
+  border-radius: 20px;
+
+  background: #EEF2FF;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+}
+
+.buyer-feature-title {
+  margin-top: 22px;
+
+  font-size: 18px;
+
+  line-height: 1.35;
+
+  font-weight: 600;
+
+  color: #111827;
+}
+
+.buyer-feature-description {
+  margin-top: 14px;
+
+  font-size: 15px;
+
+  line-height: 1.9;
+
+  color: #6b7280;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 1024px) {
+
+  .buyer-features-grid {
+    gap: 14px;
+  }
+
+  .buyer-feature-item {
+    padding: 22px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .buyer-features-box {
+    padding: 18px;
+  }
+
+  .buyer-features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .buyer-feature-item {
+    padding: 24px;
   }
 
 }

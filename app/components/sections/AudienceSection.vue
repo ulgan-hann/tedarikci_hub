@@ -41,7 +41,7 @@
         class="grid grid-cols-1
         lg:grid-cols-2
         gap-8
-        mt-20 items-stretch"
+        mt-10 items-stretch"
 "
       >
 
